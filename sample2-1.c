@@ -2,6 +2,7 @@
 
 // 演算子を用いた計算のプログラム
 
-int main (void) {
+int main(void)
+{
   printf("%d + %d = %d\n", 5, 4, 4 + 5);
 }
