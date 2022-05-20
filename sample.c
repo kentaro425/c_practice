@@ -13,7 +13,7 @@ int main(void)
   printf("%d - %d = %d\n", 100, 200, 100 - 200);
   printf("%d * %d = %d\n", 100, 200, 100 * 200);
   printf("%d / %d = %d\n", 100, 200, 100 / 200);
-  printf("%f", 3.14);
+  printf("%f\n", 3.14);
 
   return 0;
 }
