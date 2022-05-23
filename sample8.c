@@ -25,15 +25,39 @@
 //   return 0;
 // }
 
-int fruits(int apple, int orange);
+// int fruits(int apple, int orange);
+// int main(void)
+// {
+//   fruits(5, 6);
+//   return 0;
+// }
+
+// int fruits(int apple, int orange)
+// {
+//   printf("%d", (apple * 300) + (orange * 200));
+//   return 0;
+// }
+
+int fruits(int apple);
 int main(void)
 {
-  fruits(5, 6);
+  int hoge;
+  hoge = fruits(5);
+  if (hoge < 3000)
+  {
+    printf("予算以内です");
+  }
+  else
+  {
+    printf("予算オーバーです");
+  }
+  printf("%d", hoge);
   return 0;
 }
 
-int fruits(int apple, int orange)
+int fruits(int apple)
 {
-  printf("%d", (apple * 300) + (orange * 200));
-  return 0;
+  int kingaku;
+  kingaku = apple * 300;
+  return kingaku;
 }
