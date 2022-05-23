@@ -24,5 +24,17 @@ int main(void)
   // if (suuti < 5 || suuti > 10)
   //   printf("5〜10の間ではありません");
 
+  int suuti;
+  scanf("%d", &suuti);
+  // if (suuti == 10)
+  //   printf("10と同じです\n");
+  // if (suuti == 10)
+  //   printf("正しく入力できました\n");
+
+  if (suuti == 10)
+  {
+    printf("10と同じです\n");
+    printf("正しく入力できました\n");
+  }
   return 0;
 }
