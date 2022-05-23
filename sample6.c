@@ -24,8 +24,8 @@ int main(void)
   // if (suuti < 5 || suuti > 10)
   //   printf("5〜10の間ではありません");
 
-  int suuti;
-  scanf("%d", &suuti);
+  // int suuti;
+  // scanf("%d", &suuti);
   // if (suuti == 10)
   //   printf("10と同じです\n");
   // if (suuti == 10)
@@ -37,9 +37,18 @@ int main(void)
   //   printf("正しく入力できました\n");
   // }
 
-  if (suuti == 10)
-    printf("10です");
+  // if (suuti == 10)
+  //   printf("10です");
+  // else
+  //   printf("10ではない");
+
+  int age;
+  scanf("%d", &age);
+  if (age <= 3)
+    printf("0円です");
+  else if (age <= 20)
+    printf("1000円です");
   else
-    printf("10ではない");
+    printf("2000円です");
   return 0;
 }
