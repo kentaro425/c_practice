@@ -11,15 +11,29 @@
 //   printf("ありがとう");
 //   return 0;
 // }
-int keisan(int kingaku);
+
+// int keisan(int kingaku);
+// int main(void)
+// {
+//   keisan(1000);
+//   return 0;
+// }
+
+// int keisan(int kingaku)
+// {
+//   printf("%f", kingaku * 1.1);
+//   return 0;
+// }
+
+int fruits(int apple, int orange);
 int main(void)
 {
-  keisan(1000);
+  fruits(5, 6);
   return 0;
 }
 
-int keisan(int kingaku)
+int fruits(int apple, int orange)
 {
-  printf("%f", kingaku * 1.1);
+  printf("%d", (apple * 300) + (orange * 200));
   return 0;
 }
