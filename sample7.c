@@ -8,14 +8,25 @@ int main(void)
   //   printf("%d\n", i);
   // }
 
-  int year = 1;
-  double money = 1000000;
-  while (money < 100000000)
-  {
-    year++;
-    money = (money + 600000) * 1.04;
-  }
-  printf("%d年目：%f円となり、資産が1億円を超えます", year, money);
+  // int year = 1;
+  // double money = 100000;
+  // while (money < 100000000)
+  // {
+  //   year++;
+  //   money = (money + 2000000) * 1.04;
+  //   if (year / 3 == 0)
+  //   {
+  //     money = money + 1000000;
+  //   }
+  // }
+  // printf("%d年目：%f円となり、資産が1億円を超えます", year, money);
 
-  return 0;
+  int i = 10;
+  while (i < 5){
+    printf("while文です\n");
+  }
+  do{
+    printf("do while文です");
+  }while(i <5);
+    return 0;
 }
