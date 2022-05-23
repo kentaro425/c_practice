@@ -31,10 +31,15 @@ int main(void)
   // if (suuti == 10)
   //   printf("正しく入力できました\n");
 
+  // if (suuti == 10)
+  // {
+  //   printf("10と同じです\n");
+  //   printf("正しく入力できました\n");
+  // }
+
   if (suuti == 10)
-  {
-    printf("10と同じです\n");
-    printf("正しく入力できました\n");
-  }
+    printf("10です");
+  else
+    printf("10ではない");
   return 0;
 }
