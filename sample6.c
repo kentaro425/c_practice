@@ -42,13 +42,33 @@ int main(void)
   // else
   //   printf("10ではない");
 
-  int age;
-  scanf("%d", &age);
-  if (age <= 3)
-    printf("0円です");
-  else if (age <= 20)
-    printf("1000円です");
-  else
-    printf("2000円です");
+  // int age;
+  // scanf("%d", &age);
+  // if (age <= 3)
+  //   printf("0円です");
+  // else if (age <= 20)
+  //   printf("1000円です");
+  // else
+  //   printf("2000円です");
+
+  int no;
+  scanf("%d", &no);
+  switch (no)
+  {
+  case 1:
+    printf("ハリー");
+    break;
+  case 2:
+    printf("ロン");
+    break;
+  case 3:
+    printf("ハーマイオニー");
+    break;
+  case 4:
+    printf("マルフォイ");
+    break;
+  default:
+    printf("正しい番号を入力してください");
+  }
   return 0;
 }
