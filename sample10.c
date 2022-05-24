@@ -33,7 +33,7 @@ int main(void)
 {
   int array[5] = {12, 13, 14};
   int i;
-  for (i = 0; i < 5; i++)
+  for (i = 0; i < sizeof(array) / sizeof(array[0]); i++)
   {
     printf("%d番目は%dです\n", i, array[i]);
   }
