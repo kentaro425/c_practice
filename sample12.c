@@ -19,11 +19,21 @@
 //   return 0;
 // }
 
+// int main(void)
+// {
+//   int *apple, orange;
+//   apple = &orange;
+//   printf("%p\n", apple);
+//   printf("%p\n", &orange);
+//   return 0;
+// }
+
 int main(void)
 {
-  int *apple, orange;
-  apple = &orange;
-  printf("%p\n", apple);
-  printf("%p\n", &orange);
+  int *p, i;
+  p = &i;
+  *p = 15;
+  printf("%d\n", *p);
+  printf("%d\n", i);
   return 0;
 }
