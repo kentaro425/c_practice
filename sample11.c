@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 // int main(void)
 // {
 //   char c = 'A';
@@ -13,9 +14,17 @@
 //   return 0;
 // }
 
+// int main(void)
+// {
+//   char str2[] = "JOHN";
+//   printf("%s", str2);
+//   return 0;
+// }
+
 int main(void)
 {
-  char str2[] = "JOHN";
-  printf("%s", str2);
+  char str[] = "2.56";
+  double suuti = atoi(str);
+  printf("%f", suuti);
   return 0;
 }
